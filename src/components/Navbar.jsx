@@ -1,5 +1,6 @@
 import { useState } from "react";
 import assets from "../assets/assets";
+import ThemetoggleBtn from "./ThemetoggleBtn";
 
 const Navbar = ({ theme, setTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = ({ theme, setTheme }) => {
         />
 
         {/* Menu Links */}
-        <a onClick={() => setSidebarOpen(false)} href="/" className="sm:hover:border-b">
+        <a onClick={() => setSidebarOpen(false)} href="#" className="sm:hover:border-b">
           Home
         </a>
         <a onClick={() => setSidebarOpen(false)} href="#services" className="sm:hover:border-b">
@@ -61,6 +62,8 @@ const Navbar = ({ theme, setTheme }) => {
           />
         </a>
 
+      <ThemetoggleBtn theme={theme} setTheme={setTheme}/>
+
         {/* Hamburger Menu (Visible on Mobile) */}
         <img
           src={assets.menu_icon}
@@ -70,7 +73,7 @@ const Navbar = ({ theme, setTheme }) => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Navbar;
