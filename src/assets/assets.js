@@ -30,6 +30,12 @@ import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
 import real_logo from './newlogorealnobg.png'
+import hero_video from './herovideo.mp4'
+import design from './desingn.png'
+import aiicon from './ai-brain.svg'
+import webicon from './laptop-web-development-svgrepo-com.svg'
+import cybericon from './noun-cyber-security-1452443.svg'
+import mobileicon from './mobile-app.png'
 
 export const company_logos = [
   microsoft_logo,
@@ -66,7 +72,13 @@ const assets = {
   menu_icon_dark,
   sun_icon,
   moon_icon,
-  real_logo
+  real_logo,
+  hero_video,
+  design,
+  aiicon,
+  cybericon,
+  webicon,
+  mobileicon
 }
 
 export default assets
