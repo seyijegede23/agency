@@ -36,6 +36,9 @@ import aiicon from './ai-brain.svg'
 import webicon from './laptop-web-development-svgrepo-com.svg'
 import cybericon from './noun-cyber-security-1452443.svg'
 import mobileicon from './mobile-app.png'
+import cvision from './Cvision.png'
+import holomeet from './Holomeet.png'
+import sms from './sms.png'
 
 export const company_logos = [
   microsoft_logo,
@@ -78,7 +81,10 @@ const assets = {
   aiicon,
   cybericon,
   webicon,
-  mobileicon
+  mobileicon,
+  cvision,
+  sms,
+  holomeet,
 }
 
 export default assets
