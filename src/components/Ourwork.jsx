@@ -13,14 +13,14 @@ const Ourwork = () => {
     {
       title: 'HoloMeet',
       description:
-        'A free, reliable video conferencing solution we built to deliver smooth, high-quality virtual meetings for teams and businesses.',
+        'A free, reliable video conferencing solution we built to deliver smooth, high quality virtual meetings for teams and businesses.',
       image: assets.holomeet,
       href: 'https://holomeet-kappa.vercel.app/',
     },
     {
       title: 'Cvision',
       description:
-        'An AI-powered CV builder we developed to help users create the perfect resume for any job—smart, fast, and fully tailored to their career goals.',
+        'An AI-powered CV builder we developed to help users create the perfect resume for any job smart, fast, and fully tailored to their career goals.',
       image: assets.cvision,
       href: 'https://cvision-plum.vercel.app/',
     },
